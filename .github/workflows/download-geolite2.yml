@@ -1,0 +1,24 @@
+name: Download GeoLite2-Country
+
+on:
+  workflow_dispatch:  # 手动触发工作流
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download GeoLite2-Country.mmdb
+        run: |
+          curl -L https://raw.githubusercontent.com/P3TERX/GeoLite.mmdb/download/GeoLite2-Country.mmdb -o GeoLite2-Country.mmdb  # 修正文件扩展名为 .mmdb
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action"
+          git add GeoLite2-Country.mmdb  # 使用正确的文件名
+          git commit -m "Update GeoLite2-Country.mmdb"
+          git push
