@@ -1,0 +1,57 @@
+name: merge script
+
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'  # 每6小时执行一次
+  workflow_dispatch:  # 手动触发事件
+
+permissions:
+  contents: write  # 允许工作流推送更改
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt  # 安装requests等依赖
+
+    - name: Run shadowrocket merge script
+      run: python merge.py 
+    
+    - name: Run merge script
+      run: python merged_proxies.py  # 运行合并脚本
+
+    - name: Commit changes
+      run: |
+        if [[ -n "$(git status --porcelain)" ]]; then
+          echo "Changes detected in the repository."
+          git config core.ignorecase false
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add and commit changes
+          git add .
+          git commit -m "Temporary change before pull."
+          
+          # Pull the latest changes and rebase before pushing
+          git pull --rebase origin main
+          
+          # If there are still changes after pulling, commit them
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git add .
+            git commit -m "Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M %Z')"
+          fi
+          
+          git push
+        else
+          echo "No changes detected in the repository."
+        fi
