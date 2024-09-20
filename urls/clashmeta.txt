@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta/1/config.yaml
+https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta/config.yaml
+https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta/13/config.yaml
+https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta/15/config.yaml
