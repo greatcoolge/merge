@@ -1214,6 +1214,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
+- name: Unknown Country vmess 192
+  type: vmess
+  server: fbi.gov
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip1.1789034.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip1.1789034.xyz
 - name: Unknown Country vmess 193
   type: vmess
   server: shopify.com
@@ -1244,9 +1259,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: Unknown Country vmess 1100
+- name: Unknown Country vmess 198
   type: vmess
-  server: skk.moe
+  server: russia.com
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -1259,9 +1274,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip1.1789034.xyz
-- name: Unknown Country vmess 1101
+- name: Unknown Country vmess 1100
   type: vmess
-  server: www.visa.com
+  server: skk.moe
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
