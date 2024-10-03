@@ -1169,39 +1169,39 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip2.8084726.xyz
+- name: Unknown Country vmess 094
+  type: vmess
+  server: icook.tw
+  port: 2095
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip2.8084726.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.8084726.xyz
+- name: Unknown Country vmess 095
+  type: vmess
+  server: ip.sb
+  port: 2095
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip2.8084726.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip2.8084726.xyz
 - name: Unknown Country vmess 096
   type: vmess
   server: japan.com
-  port: 2095
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip2.8084726.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip2.8084726.xyz
-- name: Unknown Country vmess 099
-  type: vmess
-  server: singapore.com
-  port: 2095
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip2.8084726.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip2.8084726.xyz
-- name: Unknown Country vmess 0101
-  type: vmess
-  server: www.visa.com
   port: 2095
   uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
   alterId: 0
