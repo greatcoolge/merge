@@ -1,19 +1,4 @@
 proxies:
-- name: US vmess 01
-  type: vmess
-  server: 104.21.238.100
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip8.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip8.6016725.xyz
 - name: US vmess 02
   type: vmess
   server: 104.26.0.56
@@ -1169,9 +1154,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip8.6016725.xyz
-- name: Unknown Country vmess 094
+- name: Unknown Country vmess 097
   type: vmess
-  server: icook.tw
+  server: malaysia.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -1184,9 +1169,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip8.6016725.xyz
-- name: Unknown Country vmess 097
+- name: Unknown Country vmess 099
   type: vmess
-  server: malaysia.com
+  server: singapore.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -2534,31 +2519,10 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip12.6929198.xyz
-- name: US vmess 0
-  type: vmess
-  server: 104.21.238.36
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: ''
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip10.9447609.xyz
-- name: US vmess 1
-  type: vmess
-  server: 104.21.238.37
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: ''
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip10.9447609.xyz
+- name: US hysteria 0
+  type: hysteria
+  server: 91.149.239.23
+  port: 12345
+  tls: true
+  client-fingerprint: null
+  servername: bing.com
