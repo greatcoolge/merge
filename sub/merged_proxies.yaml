@@ -839,9 +839,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip14.6016725.xyz
-- name: Unknown Country vmess 094
+- name: Unknown Country vmess 096
   type: vmess
-  server: icook.tw
+  server: japan.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -854,9 +854,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip14.6016725.xyz
-- name: Unknown Country vmess 095
+- name: Unknown Country vmess 097
   type: vmess
-  server: ip.sb
+  server: malaysia.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -887,6 +887,21 @@ proxies:
 - name: Unknown Country vmess 099
   type: vmess
   server: singapore.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip14.6016725.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip14.6016725.xyz
+- name: Unknown Country vmess 0100
+  type: vmess
+  server: skk.moe
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
