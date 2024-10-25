@@ -1,19 +1,4 @@
 proxies:
-- name: US vmess 01
-  type: vmess
-  server: 104.21.238.100
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip15.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip15.6016725.xyz
 - name: US vmess 02
   type: vmess
   server: 104.26.0.56
@@ -1154,21 +1139,6 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip15.6016725.xyz
-- name: Unknown Country vmess 092
-  type: vmess
-  server: fbi.gov
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip15.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip15.6016725.xyz
 - name: Unknown Country vmess 093
   type: vmess
   server: shopify.com
@@ -1184,9 +1154,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip15.6016725.xyz
-- name: Unknown Country vmess 094
+- name: Unknown Country vmess 096
   type: vmess
-  server: icook.tw
+  server: japan.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -1229,78 +1199,36 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip15.6016725.xyz
-- name: US vmess 11
+- name: Unknown Country vmess 099
   type: vmess
-  server: 104.21.238.200
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  server: singapore.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  servername: http1.9290254.xyz
+  tls: false
   network: ws
+  servername: ip15.6016725.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: http1.9290254.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: US vmess 12
+      Host: ip15.6016725.xyz
+- name: Unknown Country vmess 0101
   type: vmess
-  server: 104.21.238.201
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+  server: www.visa.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
-  servername: http1.9290254.xyz
+  tls: false
   network: ws
+  servername: ip15.6016725.xyz
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: http1.9290254.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: US vmess 13
-  type: vmess
-  server: 104.21.238.202
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: http1.9290254.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: http1.9290254.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- name: US vmess 14
-  type: vmess
-  server: 104.21.238.203
-  port: 8443
-  uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: http1.9290254.xyz
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: http1.9290254.xyz
-    early-data-header-name: Sec-WebSocket-Protocol
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
+      Host: ip15.6016725.xyz
 - name: US vmess 31
   type: vmess
   server: 104.19.38.9
@@ -2606,59 +2534,10 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip20.6929198.xyz
-- name: US vmess 0
-  type: vmess
-  server: 104.21.238.35
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: ''
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip21.9447609.xyz
-- name: US vmess 1
-  type: vmess
-  server: 104.21.238.36
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: ''
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip19.9447609.xyz
-- name: US vmess 2
-  type: vmess
-  server: 104.21.238.37
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: ''
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip19.9447609.xyz
-- name: US vmess 3
-  type: vmess
-  server: 104.21.238.38
-  port: 2086
-  uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  servername: ''
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip19.9447609.xyz
+- name: US hysteria 0
+  type: hysteria
+  server: 91.149.239.23
+  port: 12345
+  tls: true
+  client-fingerprint: null
+  servername: bing.com
