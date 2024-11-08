@@ -1154,9 +1154,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip22.6016725.xyz
-- name: Unknown Country vmess 097
+- name: Unknown Country vmess 099
   type: vmess
-  server: malaysia.com
+  server: singapore.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
