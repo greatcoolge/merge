@@ -1139,6 +1139,36 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip23.6016725.xyz
+- name: Unknown Country vmess 093
+  type: vmess
+  server: shopify.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip23.6016725.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip23.6016725.xyz
+- name: Unknown Country vmess 097
+  type: vmess
+  server: malaysia.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip23.6016725.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip23.6016725.xyz
 - name: Unknown Country vmess 0101
   type: vmess
   server: www.visa.com
@@ -2459,3 +2489,10 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip30.6929198.xyz
+- name: US hysteria 0
+  type: hysteria
+  server: 91.149.239.23
+  port: 12345
+  tls: true
+  client-fingerprint: null
+  servername: bing.com
