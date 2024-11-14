@@ -1154,6 +1154,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip23.6016725.xyz
+- name: Unknown Country vmess 092
+  type: vmess
+  server: fbi.gov
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip23.6016725.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip23.6016725.xyz
 - name: Unknown Country vmess 093
   type: vmess
   server: shopify.com
@@ -1202,6 +1217,21 @@ proxies:
 - name: Unknown Country vmess 099
   type: vmess
   server: singapore.com
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip23.6016725.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip23.6016725.xyz
+- name: Unknown Country vmess 0101
+  type: vmess
+  server: www.visa.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -2604,7 +2634,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip31.9447609.xyz
+      Host: ip32.9447609.xyz
 - name: US vmess 1
   type: vmess
   server: 104.21.238.36
@@ -2618,7 +2648,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip31.9447609.xyz
+      Host: ip32.9447609.xyz
 - name: US vmess 2
   type: vmess
   server: 104.21.238.37
@@ -2632,7 +2662,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip31.9447609.xyz
+      Host: ip32.9447609.xyz
 - name: US vmess 3
   type: vmess
   server: 104.21.238.38
@@ -2646,4 +2676,4 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip31.9447609.xyz
+      Host: ip32.9447609.xyz
