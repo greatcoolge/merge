@@ -1184,36 +1184,6 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: ip25.6016725.xyz
-- name: Unknown Country vmess 095
-  type: vmess
-  server: ip.sb
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip25.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip25.6016725.xyz
-- name: Unknown Country vmess 096
-  type: vmess
-  server: japan.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip25.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip25.6016725.xyz
 - name: Unknown Country vmess 097
   type: vmess
   server: malaysia.com
@@ -1247,21 +1217,6 @@ proxies:
 - name: Unknown Country vmess 099
   type: vmess
   server: singapore.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: ip25.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip25.6016725.xyz
-- name: Unknown Country vmess 0100
-  type: vmess
-  server: skk.moe
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -2679,7 +2634,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip35.9447609.xyz
+      Host: b1.9447609.xyz
 - name: US vmess 1
   type: vmess
   server: 104.21.238.36
@@ -2693,7 +2648,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip35.9447609.xyz
+      Host: b1.9447609.xyz
 - name: US vmess 2
   type: vmess
   server: 104.21.238.37
@@ -2707,7 +2662,7 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip35.9447609.xyz
+      Host: b1.9447609.xyz
 - name: US vmess 3
   type: vmess
   server: 104.21.238.38
@@ -2721,4 +2676,4 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip35.9447609.xyz
+      Host: b1.9447609.xyz
