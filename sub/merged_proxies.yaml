@@ -284,21 +284,6 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: US vmess 021
-  type: vmess
-  server: 104.19.42.49
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: c2.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: c2.6016725.xyz
 - name: US vmess 022
   type: vmess
   server: 104.17.106.151
@@ -1154,9 +1139,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: Unknown Country vmess 092
+- name: Unknown Country vmess 093
   type: vmess
-  server: fbi.gov
+  server: shopify.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -1169,9 +1154,24 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: Unknown Country vmess 093
+- name: Unknown Country vmess 094
   type: vmess
-  server: shopify.com
+  server: icook.tw
+  port: 2095
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: c2.6016725.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: c2.6016725.xyz
+- name: Unknown Country vmess 095
+  type: vmess
+  server: ip.sb
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -1214,39 +1214,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: Unknown Country vmess 098
-  type: vmess
-  server: russia.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: c2.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: c2.6016725.xyz
 - name: Unknown Country vmess 099
   type: vmess
   server: singapore.com
-  port: 2095
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  network: ws
-  servername: c2.6016725.xyz
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: c2.6016725.xyz
-- name: Unknown Country vmess 0101
-  type: vmess
-  server: www.visa.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
