@@ -1199,9 +1199,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: Unknown Country vmess 096
+- name: Unknown Country vmess 097
   type: vmess
-  server: japan.com
+  server: malaysia.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
@@ -1214,9 +1214,9 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: c2.6016725.xyz
-- name: Unknown Country vmess 099
+- name: Unknown Country vmess 098
   type: vmess
-  server: singapore.com
+  server: russia.com
   port: 2095
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   alterId: 0
