@@ -8714,7 +8714,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: w58.164748.xyz
-- name: US vmess 2832
+- name: Database not found vmess 2832
   type: vmess
   server: 162.159.45.82
   port: 2086
@@ -11129,7 +11129,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: w58.164748.xyz
-- name: US vmess 2993
+- name: Unknown Country vmess 2993
   type: vmess
   server: 162.159.45.243
   port: 2086
