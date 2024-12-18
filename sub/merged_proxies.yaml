@@ -11144,7 +11144,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: w58.164748.xyz
-- name: US vmess 2994
+- name: Unknown Country vmess 2994
   type: vmess
   server: 162.159.45.244
   port: 2086
