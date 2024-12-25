@@ -3089,6 +3089,21 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: m116.164748.xyz
+- name: US vmess 0207
+  type: vmess
+  server: 104.21.238.207
+  port: 2086
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: m116.164748.xyz
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: m116.164748.xyz
 - name: US vmess 0208
   type: vmess
   server: 104.21.238.208
@@ -6254,7 +6269,7 @@ proxies:
     path: github.com/Alvin9999
     headers:
       Host: m116.164748.xyz
-- name: US vmess 0419
+- name: Database not found vmess 0419
   type: vmess
   server: 104.26.0.169
   port: 2086
